@@ -23,7 +23,7 @@ from smbus2 import SMBus
 print("Imported Platform module version: ", platform.__version__)
 print("Matplotlib version: "+mpl.__version__)
 
-##I2C SET UP
+##I2C SLAVES  SET UP
 DHT_ADDRESS = 8 #0x08
 OXY_ADDRESS = 11 #0x0b
 #slavex_address = xxxx #write address
